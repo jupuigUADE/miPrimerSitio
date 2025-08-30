@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primer sitio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="characters.html">Personajes</a>
-            <a href="episodes.html">Episodios</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <h1>Mi serie Favorita</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="episodios.html">Episodios</a>
+      </nav>
+      <h1>Mi serie Favorita</h1>
     </header>
     <main>
-        <h2>Personajes</h2>
-        <section>
-            <img src="images/character1.jpg" alt="Character 1" width="250">
-            <p><strong>Character 1:</strong> Description of the first main character, their role, and personality.</p>
-        </section>
-        <section>
-            <img src="images/character2.jpg" alt="Character 2" width="250">
-            <p><strong>Character 2:</strong> Description of the second main character, their role, and personality.</p>
-        </section>
-        <section>
-            <img src="images/character3.jpg" alt="Character 3" width="250">
-            <p><strong>Character 3:</strong> Description of the third main character, their role, and personality.</p>
-        </section>
+      <h2>Personajes</h2>
+      <ul>
+        <li><a href="#personaje1">Belly</a></li>
+        <li><a href="#personaje2">Conrad</a></li>
+        <li><a href="#personaje3">Jeremiah</a></li>
+      </ul>
+      <div id="personaje1">
+        <h2><strong>Belly</strong></h2>
+        <img
+          src="https://i.pinimg.com/1200x/46/18/0e/46180ecc99c376db2eb3e097d7cc140e.jpg"
+          alt="Belly"
+          width="180"
+          height="200"
+        />
+        <p>
+          Isabel "Belly" Conklin es la protagonista, una adolescente que, en su
+          decimosexto verano, se da cuenta de que el mundo la ve de una forma
+          diferente y se encuentra en medio de un triángulo amoroso con los
+          hermanos Fisher.
+        </p>
+      </div>
+
+      <div id="personaje2">
+        <h2><strong>Conrad</strong></h2>
+        <img
+          src="https://i.pinimg.com/1200x/2a/f1/2d/2af12d1ef5f30df4d283cbd6efa1beb3.jpg"
+          alt="Conrad"
+          width="180"
+          height="200"
+        />
+        <p>
+          Conrad es el hermano mayor, un chico reservado y melancólico que lucha
+          con sus sentimientos y con los secretos de su familia, mientras
+          desarrolla una conexión romántica con Belly.
+        </p>
+      </div>
+
+      <div id="personaje3">
+        <h2><strong>Jeremiah</strong></h2>
+        <img
+          src="https://i.pinimg.com/1200x/4e/6a/7a/4e6a7aae02071c76df4f468625822877.jpg"
+          alt="Jeremiah"
+          width="180"
+          height="200"
+        />
+        <p>
+          Jeremiah es el hermano menor, un chico extrovertido y amistoso que
+          siempre ha sido el mejor amigo de Belly, y que también se enamora de
+          ella durante el verano.
+        </p>
+      </div>
     </main>
     <footer>
-        <p>Autora: Julieta Puig Peralta &copy; 2025</p>
+      <hr />
+      <p>Autora: Julieta Puig Peralta &copy; 2025</p>
     </footer>
-</body>
+  </body>
 </html>
